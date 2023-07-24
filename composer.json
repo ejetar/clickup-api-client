@@ -1,0 +1,21 @@
+{
+    "name": "ejetar/clickup-api-client",
+    "description": "",
+    "version": "0.0.1",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Almeida Girardi",
+            "email": "guilhermeagirardi@gmail.com"
+        }
+    ],
+    "require": {
+        "nategood/httpful": "^0.3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ejetar\\ClickUpAPIClient\\": "src/"
+        }
+    }
+}
